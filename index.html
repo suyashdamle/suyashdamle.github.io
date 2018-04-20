@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="custom.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
 <style>
-div.container {
-
-    max-width: 100%;
-	min-height: 100%;
-	background-image:url("site_images/net.jpg");
-	opacity:0.95;
-	background-size:cover;
-    background-repeat: no-repeat;
-
-}
-html,body{
-	margin:0;
-	height:100%;
-}
-header {
-    padding: 1em;
-    color: white;
-    text-align: center;
-}
-footer{
-	width: 95%;
-    position: absolute;
-    padding: 1em;
-	bottom: 10px;
-	left: 20px;
-    color: white;
-    background-color:rgba(255,255,255,0.2);
-    text-align: right;
-    }
-article {
-	background-color:rgba(255,255,255,0.3);
-	text-align: left;
-	margin-left:20px;
-	margin-right:20px;
-    overflow: hidden;
-}
-a{
-	color:white;
-}
 </style>
 <body>
 <div class="container">
 
 	<header>
    		<h2>Experimental...Under Development</h2>
+		 <ul class="nav nav-tabs">
+   			 <li class="active"><a data-toggle="tab" href="#about_me">About Me</a></li>
+		    <li><a data-toggle="tab" href="#projects">Projects</a></li>
+    		<li><a data-toggle="tab" href="#codes">Codes</a></li>
+		</ul>
+
+	   <div class="tab-content">
+   		 <div id="about_me" class="tab-pane fade in active">
+	      <h3>About Me</h3>
+		  <br><br>
+          <article>
+		  <p>
+			<a href="https://www.github.com/suyashdamle">Visit my github profile</a> 
+    	  </p>
+	      </article>
+    	
+		</div>
+    	<div id="projects" class="tab-pane fade">
+    	  <h3>My Projects</h3>
+    	  <p></p>
+    	</div>
+    	<div id="codes" class="tab-pane fade">
+    	  <h3>Codes</h3>
+    	  <p></p>
+    	</div>
+	  </div>
 	</header>
-	<article>
-		<p>
-  		<a href="https://www.github.com/suyashdamle">Visit my github profile</a> 
-		</p>
-	</article>
+	
+
+
 	<footer>
 		&copy; Suyash Damle
 	</footer>
