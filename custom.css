@@ -3,16 +3,18 @@ div.container {
 	min-width:100%;
     max-width: 100%;
 	min-height: 100%;
-	background-image:url("site_images/net.jpg");
+	//background-image:url("site_images/net.jpg");
 	opacity:0.95;
 	background-size:cover;
-    background-repeat: no-repeat;
+	background-color: #262626;    
+	background-repeat: no-repeat;
 	font-size: 1.5em;
 
 }
 html,body{
 	margin:0;
 	height: 100%;
+	font-family:Georgia, serif;
 
 }
 header {
@@ -23,12 +25,12 @@ header {
 footer{
 	width: 98%;
     position: absolute;
-    padding: 1em;
+    padding: 0.8em;
 	bottom: 1%;
 	left: 1%;
     color: white;
     background-color:rgba(255,255,255,0.2);
-    text-align: right;
+
     }
 article {
 	//background-color:rgba(255,255,255,0.3);
@@ -40,7 +42,50 @@ article {
 a{
 	color:white;
 }
+a:hover{
+	background-color:black;
+	color:white;
+	text-decoration:none;
+}
+text.align-left{
+	float:left;
+}
+text.align-right{
+	float:right;
+}
+// Link icons
 
+.fa {
+}
+
+.fa-style:hover {
+    background-color:black;
+    //filter: brightness(120%);
+    //opacity: 1.5;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: white;
+  color: black;
+}
+
+.fa-style{
+  padding: 10px;
+  font-size: 1em;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+ 
+}
 
 
 
