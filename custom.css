@@ -1,8 +1,8 @@
 div.container {
 	position: relative;
 	min-width:100%;
-    max-width: 100%;
-	min-height: 100%;
+ 	max-width: 100%;
+	min-height: 200%;
 	//background-image:url("site_images/net.jpg");
 	opacity:0.95;
 	background-size:cover;
